@@ -1,12 +1,9 @@
-export const metadata = {
-  title: "APEBNB",
-  description: "BNB Meme Launcher",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0, background: "#000", color: "#fff" }}>
+        {children}
+      </body>
     </html>
   );
 }
