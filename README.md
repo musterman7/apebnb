@@ -1,2 +1,0 @@
-APEBNB
-BNB Meme Launcher
