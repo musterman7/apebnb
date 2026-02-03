@@ -1,9 +1,10 @@
-export const dynamic = "force-dynamic";
+"use client";
 
-export default function Flap() {
+export default function FourMeme() {
   return (
-    <main style={{ padding: 40 }}>
-      <h1>four.meme launcher</h1>
-      <p>Launch token via four.meme</p>
-    </main>
+    <div>
+      <h1>Launch on Four.meme</h1>
+      <a href="https://four.meme" target="_blank">Launch Token</a>
+    </div>
   );
+}
