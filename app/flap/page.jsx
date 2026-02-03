@@ -1,10 +1,10 @@
-export const dynamic = "force-dynamic";
+"use client";
 
 export default function Flap() {
   return (
-    <main style={{ padding: 40 }}>
-      <h1>flap.sh launcher</h1>
-      <p>Launch token via flap.sh</p>
-    </main>
+    <div>
+      <h1>Trade via Flap</h1>
+      <a href="https://flap.sh" target="_blank">Open Flap</a>
+    </div>
   );
 }
